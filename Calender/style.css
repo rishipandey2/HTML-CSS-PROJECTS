@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+     background: #000001; 
+   
+   
+}
+
+.heading {
+    margin-left: 27rem;
+    font-size: 2rem;
+    color: #00A0AE;
+}
+
+.btn{
+    margin-left: 27rem;
+    margin-top: 2rem;
+    color: #00A0AE;
+   
+}
+.btn button{
+   width: 13rem;
+   padding: 12px;
+   font-size: 20px;
+   border-radius: 2rem;
+   background-color: #00A0AE;
+  border: 2px solid #fff;
+}
+
+
+.Content{
+    margin-top:4rem;
+    padding-left: 2rem;
+    margin-left: 10rem;
+     width: 70rem;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.5px);
+-webkit-backdrop-filter: blur(9.5px);
+border: 1px solid rgba(255, 255, 255, 0.59);
+padding-top: 2rem;
+   
+}
+
+.calendar{
+    margin-top: 2rem;
+    margin-left: .1rem;
+}
+
+.calendar ul{
+    display: flex;
+    list-style: none;
+    gap: 6.8rem;
+    font-size: 2rem;
+    color: #00A0AE;
+}
+
+
+.date .row1 ul{
+    display: flex;
+    list-style: none;
+    gap: 4.9rem;
+    color: #00A0AE;
+   
+
+}
+
+.date .row1 ul li{
+    border: 1px solid;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #fff;
+}

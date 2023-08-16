@@ -1,0 +1,227 @@
+body{
+    background: #EAEAEA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+    
+}
+
+.content-width{
+    width: 1400px;
+    height: 46rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+   
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   
+}
+
+
+nav{
+    display: flex;
+    gap: 10rem;
+}
+.logo h5{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #0d0c22;
+}
+
+.logo .d {
+    font-style: Bold;
+    font-weight: 700;
+    line-height: 40px;
+   
+}
+
+.nav-btn{
+    padding-left: 40rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+   
+}
+
+ul li{
+    list-style-type: none;
+}
+
+li  .log{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #0d0c22;
+    background-color: #fff;
+    font-weight: 700;
+  
+}
+
+li .get{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    line-height: 28px;
+    size: 16px;
+    border: 1px solid  #0d0c22 ;
+    background-color: #0d0c22;
+    color: #fff;
+}
+
+
+
+.mid{
+    display: flex;
+    padding-left:27rem ;
+    margin-top: -2rem;
+}
+
+.mid form input{
+    width: 17rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+}
+
+::placeholder{
+    padding-left: 2rem;
+    color: #0d0c22;
+    font-size: 14px;
+    font-weight: 500;
+    border-color:  #0d0c22;
+}
+
+
+.mid button{
+    width: 7rem;
+    border-radius: 2rem;
+    margin-left: .2rem;
+    background-color: #0d0c22;
+    border-color: #0d0c22;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+.cards {
+    display: flex;
+    margin-top: 1rem;
+}
+.cards h5 {
+    padding-left: 67rem;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #0d0c22;
+}
+
+
+.cards h4 {
+    margin-left: rem;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #0d0c22;
+    line-height: 28px;
+}
+
+
+
+
+footer .card{
+    display: flex;
+   gap: 3rem;
+   margin-top: 1rem;
+   /* From https://css.glass */
+
+  
+
+    
+} 
+footer .card-type{
+     border: 1px solid; 
+     padding-left: 1rem;
+     padding-bottom: 1rem;
+     border-radius: 1rem;
+     
+     background: rgba(255, 255, 255, 0.2);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(6.6px);
+     -webkit-backdrop-filter: blur(6.6px);
+     border: 1px solid rgba(255, 255, 255, 0.52);
+
+    
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   
+}
+
+.card-type h6{
+   
+    color: #3c3c3d;
+    font-weight: 400;
+}
+
+.card-type h4{
+    margin-top: .9rem;
+    color: #0d0c22;
+    font-size: 20px;
+}
+
+.card-type p{
+    margin-top: .9rem;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0d0c22;
+}
+
+.card-type h6 {
+    margin-top: 3rem;
+    color: #3c3c3d;
+    font-weight: 400;
+}
+.card-type h3{
+    margin-top: .9rem;
+}
+
+.arrow{
+    padding-left: 12rem;
+}
+
+
+article{
+    padding: 4rem;
+}
+
+.head{
+    padding-left: 2rem;
+}
+
+.head h3{
+    font-size: 60px;
+    padding-left: 7rem;
+}
+
+.head p{
+    padding-left: 21rem;
+    margin: 3px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 1rem;
+}
+
+.first{
+    padding-left: 7rem;
+}
